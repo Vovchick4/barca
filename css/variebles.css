@@ -1,0 +1,9 @@
+:root {
+  --main-color: #494e47;
+  --header-bg-lightness: rgba(255, 255, 255, 0.38);
+  --header-bg: rgb(110, 116, 116);
+  --light-color: rgb(233, 222, 222);
+  --lightness-color: rgb(185, 178, 178);
+  --dark-color: rgba(27, 26, 26, 0.76);
+  --bg-overlay: rgba(0, 0, 0, 0.38);
+}
