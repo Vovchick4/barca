@@ -121,34 +121,13 @@
             <article class="content-review container">
                 <h4 class="review__title">Звернення фанатів</h4>
 
-                <div class="review__content">
-                    <div class="review__text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde nisi modi corporis
-                        dignissimos animi ab nesciunt maxime voluptatum natus. Saepe quo aspernatur voluptatum pariatur
-                        accusamus repellat, natus consectetur ipsa?
-
-                        <div class="review__options">
-                            <p class="review__date">10.10.2018, 20:33</p>
-                            <p class="review__user-name">FootballFan</p>
-                        </div>
-                    </div>
-                    <div class="review__text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde nisi modi corporis
-                        dignissimos animi ab nesciunt maxime voluptatum natus. Saepe quo aspernatur voluptatum pariatur
-                        accusamus repellat, natus consectetur ipsa?
-
-                        <div class="review__options">
-                            <p class="review__date">10.10.2018, 20:33</p>
-                            <p class="review__user-name">FootballFan</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="review__content"></div>
             </article>
 
             <section class="send-review-form container">
-                <form class="send-review-form__items">
+                <form class="send-review-form__items" onsubmit="smbtForm()" method="dialog">
                     <textarea class="send-review-form__texdarea" name="review_text" id="review_text" rows="10"
-                        placeholder="Написати звернення..."></textarea>
+                        placeholder="Написати звернення..." required></textarea>
                     <button class="send-review-form__button" type="submit">Send</button>
                 </form>
             </section>
@@ -216,6 +195,7 @@
     </div>
 
     <script src="../js/index.js"></script>
+    <script src="../js/fans.js"></script>
 </body>
 
 </html>
