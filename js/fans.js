@@ -14,8 +14,9 @@ const reviews = [
 function smbtForm() {
     if (txtArea.value !== '') {
         reviews.push({ desc: txtArea.value, date: formatDate(new Date()) })
-        renderReviews(reviews)
         txtArea.value = ""
+
+        renderReviews(reviews)
     } else {
         alert("Set Desc PLS!")
     }
